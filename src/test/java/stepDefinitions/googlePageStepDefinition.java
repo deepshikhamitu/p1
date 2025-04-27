@@ -13,8 +13,8 @@ public class googlePageStepDefinition {
 	public googleSearch googleSearch;
 	public gmailLocators gmailLocators;
 	public googlePageStepDefinition(browserManager browserManager) {
-		this.browserManager=browserManager;
-		//this.googleSearch=browserManager.locatorManager.getgoogleSearch();
+		//this.browserManager=browserManager;
+		this.googleSearch=browserManager.locatorManager.getgoogleSearch();
 		
 		
 	}
